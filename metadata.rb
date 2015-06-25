@@ -1,0 +1,7 @@
+name             'ansible-cookbook'
+maintainer       'Josh Guice'
+maintainer_email 'jguice@gmail.com'
+license          'Apache 2.0'
+description      'Installs/Configures ansible-cookbook'
+long_description 'Installs/Configures ansible-cookbook'
+version          '0.1.0'
