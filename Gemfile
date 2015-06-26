@@ -16,3 +16,5 @@ gem 'berkshelf'
 
 gem "test-kitchen"
 gem "kitchen-vagrant"
+
+gem 'serverspec', '~> 2.19.0'
