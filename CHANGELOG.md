@@ -1,3 +1,3 @@
 # 0.1.0
 
-Initial release of ansible-cookbook
+Initial release of ansible
