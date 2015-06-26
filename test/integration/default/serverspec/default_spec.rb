@@ -2,7 +2,7 @@ require 'serverspec'
 
 describe ppa('ansible/ansible') do
   it { should exist }
-  it {should be_enabled }
+  it { should be_enabled }
 end
 
 describe package('ansible') do

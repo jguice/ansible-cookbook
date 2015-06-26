@@ -17,11 +17,11 @@
 # limitations under the License.
 #
 
-apt_repository "ansible-ppa" do
+apt_repository 'ansible-ppa' do
   action :add
-  uri "ppa:ansible/ansible"
+  uri 'ppa:ansible/ansible'
   distribution node['lsb']['codename']
-  components ["main"]
+  components ['main']
 end
 
 package 'ansible' do
