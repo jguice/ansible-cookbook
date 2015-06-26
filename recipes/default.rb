@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: ansible-cookbook
+# Cookbook Name:: ansible
 # Recipe:: default
 #
-# Copyright (C) 2015 Rackspace
+# Copyright (C) 2015 Josh Guice
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
