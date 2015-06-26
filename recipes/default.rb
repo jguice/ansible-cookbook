@@ -16,3 +16,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+
+apt_repository "ansible-ppa" do
+  action :add
+  uri "ppa:ansible/ansible"
+  distribution node['lsb']['codename']
+  components ["main"]
+end
+
+package 'ansible' do
+  action :install # TODO choose a specific version?
+end
