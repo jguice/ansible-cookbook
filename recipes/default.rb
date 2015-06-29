@@ -19,11 +19,13 @@
 
 apt_repository 'ansible-ppa' do
   action :add
-  uri 'ppa:ansible/ansible'
+  uri 'http://ppa.launchpad.net/ansible/ansible/ubuntu'
   distribution node['lsb']['codename']
   components ['main']
+  keyserver 'keyserver.ubuntu.com'
+  key '7BB9C367'
 end
 
 package 'ansible' do
-  action :install # TODO choose a specific version?
+  action :install # TODO choose a specific ansible version?
 end
