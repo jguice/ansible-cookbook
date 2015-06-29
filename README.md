@@ -6,6 +6,8 @@ This cookbook installs the latest version of ansible available at the time of ex
 
 Currently only ubuntu is support (tested with 14.04 trusty).
 
+It has been tested with the apt 1.1.2 cookbook and 2.7.0 (and should work with versions in between)
+
 ## Attributes
 
 There are currently no attributes.
@@ -38,6 +40,8 @@ Include `ansible` in your node's `run_list`:
   ]
 }
 ```
+
+**NOTE:** If you change the Berksfile for testing, remember to remove your local Berksfile.lock for the change to take effect.
 
 ## License and Authors
 
