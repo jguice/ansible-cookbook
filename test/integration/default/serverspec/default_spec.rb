@@ -1,4 +1,4 @@
-require 'serverspec'
+require_relative 'spec_helper'
 
 describe ppa('ansible/ansible') do
   it { should exist }
