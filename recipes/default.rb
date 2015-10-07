@@ -27,5 +27,6 @@ apt_repository 'ansible-ppa' do
 end
 
 package 'ansible' do
-  action :install # TODO choose a specific ansible version?
+  action :install
+  version node['ansible']['verison']
 end
