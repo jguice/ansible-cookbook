@@ -28,5 +28,5 @@ end
 
 package 'ansible' do
   action :install
-  version node['ansible']['verison']
+  version node['ansible']['version']
 end
