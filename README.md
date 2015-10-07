@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jguice/ansible-cookbook.svg)](https://travis-ci.org/jguice/ansible-cookbook) [![CK Version](http://img.shields.io/cookbook/v/ansible.svg)](https://supermarket.getchef.com/cookbooks/ansible)
+
 # ansible-cookbook
 
 This cookbook installs the latest version of ansible available at the time of execution.  It uses the ppa method described here:  http://docs.ansible.com/intro_installation.html#latest-releases-via-apt-ubuntu
