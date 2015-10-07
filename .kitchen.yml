@@ -5,6 +5,7 @@ driver:
 provisioner:
   name: chef_solo
   require_chef_omnibus: 11.8.2 # to match my chef environment version, alter as-needed
+  chef_omnibus_install_options: -d /tmp/vagrant-cache/vagrant_omnibus
 
 platforms:
   - name: ubuntu-14.04
