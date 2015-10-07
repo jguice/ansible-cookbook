@@ -14,6 +14,8 @@ end
 group :integration do
   gem 'serverspec', '~> 2.19.0'
   gem 'test-kitchen', '~> 1.4.0'
-  gem 'kitchen-vagrant', '~> 0.18.0'
+  # NOTE newer versions of kitchen-vagrant"#<Kitchen::ClientError: Could not load the 'vagrant' driver..." :(
+  # https://github.com/chef/chef-dk/issues/15
+  gem 'kitchen-vagrant', '~> 0.15.0'
   gem 'vagrant-wrapper', '2.0.3'
 end
