@@ -13,7 +13,7 @@ It has been tested with the apt 1.1.2 cookbook and 2.7.0 (and should work with v
 ## Attributes
 
 Key | Type | Description | Default
-----------------------------------
+--- | ---- | ----------- | -------
 `['ansible']['version']` | String | Version of ansible to install | 1.9.2
 
 ## Usage
